@@ -1,0 +1,30 @@
+/*each fruit gets its oen input field color*/
+input[type=text].apple
+{
+  background-color: red;
+  width: 25%;
+}
+
+input[type=text].banana
+{
+  background-color: yellow;
+  width: 25%;
+}
+
+input[type=text].orange
+{
+  background-color: orange;
+  width: 25%;
+}
+
+/*Sets position of fieldset tag*/
+fieldset
+{
+  width: 15%;
+  margin:auto;
+}
+
+p
+{
+  text-align: left;
+}

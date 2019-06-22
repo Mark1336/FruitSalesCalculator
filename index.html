@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--WebLink: NA-->
+
+<head>
+  <title>CIS 444 HW4 - MA</title>
+  <meta charset = "utf-8"/>
+  <link rel = "stylesheet" type="text/css" href="cis444hw4.css">
+  <script src="cis444hw4.js"></script>
+</head>
+
+<body>
+
+<!--Border around input fields an button-->
+<fieldset>
+  <legend>Fruit Sales Calculator</legend>
+  <p>
+    Apple:        <input class="apple" type="text"  onClick="addApple(this.id);" id="apple"><br> <!--Each input field calls its own function, note you will have to click on it after input to get it to run with onclick-->
+    Banana: <input class="banana" type="text"  onClick="addBanana(this.id);" id="banana"><br>
+    Orange: <input class="orange" type="text" onClick="addOrange(this.id);" id="orange"><br>
+
+    <br><input type="button" onclick="submit()" value="Submit"> <!--the button used to display the results of the entered data-->
+  </p>
+</fieldset>
+
+</body>
+</html>
